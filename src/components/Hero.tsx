@@ -9,7 +9,7 @@ const Hero = () => {
 
   const roles = [
     'Full Stack Developer',
-    'UI/UX Enthusiast',
+    'Tech Visionary',
     'Problem Solver',
     'Creative Thinker',
   ];
@@ -40,9 +40,9 @@ const Hero = () => {
   }, [text, isDeleting, loopNum, typingSpeed]);
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/armaan1620/', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/armaan20/', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://x.com/armaan162887576/', label: 'Twitter' },
     { icon: Mail, href: '#contact', label: 'Email' },
   ];
 
@@ -63,7 +63,7 @@ const Hero = () => {
               Hello, I'm
             </p>
             <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold text-white animate-slide-up">
-              Your Name
+              Armaan
             </h1>
             <div className="h-12 sm:h-16 flex items-center justify-center">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500">

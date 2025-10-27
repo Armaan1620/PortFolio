@@ -25,26 +25,26 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'your.email@example.com',
+      value: 'armaaaaan2003@gmail.com',
       href: 'mailto:your.email@example.com',
     },
     {
       icon: Phone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567',
+      value: '+917015628648',
+      href: 'tel:+917015628648',
     },
     {
       icon: MapPin,
       title: 'Location',
-      value: 'San Francisco, CA',
+      value: 'Bangalore , India',
       href: '#',
     },
   ];
 
   const socialLinks = [
-    { icon: Github, href: '#', label: 'GitHub', color: 'hover:text-gray-300' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:text-blue-400' },
+    { icon: Github, href: 'https://github.com/armaan1620', label: 'GitHub', color: 'hover:text-gray-300' },
+    { icon: Linkedin, href: 'https://linkedin.com/in/armaan20/', label: 'LinkedIn', color: 'hover:text-blue-400' },
     { icon: Twitter, href: '#', label: 'Twitter', color: 'hover:text-sky-400' },
   ];
 

@@ -3,53 +3,30 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with real-time inventory management, payment processing, and admin dashboard.',
+      title: 'ClipForge',
+      description: 'Full-stack video editing app using React Native (Expo) and FastAPI, featuring overlays, FFmpeg rendering, real-time preview, async job tracking, and complete Dockerized deployment.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'Node.js', 'PostgreSQL', 'Stripe'],
-      github: '#',
+      tags: ['React Native', 'FastAPI', 'Docker', 'FFmpeg'],
+      github: 'https://github.com/Armaan1620/DripLink',
       demo: '#',
     },
     {
-      title: 'Task Management App',
-      description: 'Collaborative project management tool with real-time updates, team collaboration, and analytics dashboard.',
+      title: 'Byte-Chef',
+      description: 'Built a cross-platform mobile app for discovering and searching recipes using TheMealDB API. Integrated user authentication with Clerk and secure token handling. ',
       image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Next.js', 'TypeScript', 'Supabase', 'Tailwind'],
-      github: '#',
+      tags: ['React Native', 'TypeScript', 'Express', 'MySQL'],
+      github: 'https://github.com/Armaan1620/recipe-app-api',
       demo: '#',
     },
     {
-      title: 'AI Content Generator',
-      description: 'ML-powered content generation platform with natural language processing and multi-format export capabilities.',
+      title: 'Myntra-Clone',
+      description: 'Built a full-stack e-commerce web app inspired by Myntra using React with Redux for state management and Bootstrap for responsive UI design.Designed responsive UI using Bootstrap, ensuring seamless usability across devices.',
       image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['Python', 'React', 'OpenAI', 'FastAPI'],
-      github: '#',
+      github: 'https://github.com/Armaan1620/MyntraClone',
       demo: '#',
     },
-    {
-      title: 'Weather Dashboard',
-      description: 'Real-time weather tracking application with interactive maps, forecasts, and weather alerts.',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['Vue.js', 'Weather API', 'Charts.js', 'CSS'],
-      github: '#',
-      demo: '#',
-    },
-    {
-      title: 'Social Media Analytics',
-      description: 'Comprehensive analytics platform for tracking social media performance across multiple platforms.',
-      image: 'https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React', 'D3.js', 'MongoDB', 'Express'],
-      github: '#',
-      demo: '#',
-    },
-    {
-      title: 'Fitness Tracking App',
-      description: 'Mobile-first fitness application with workout tracking, nutrition planning, and progress visualization.',
-      image: 'https://images.pexels.com/photos/4162494/pexels-photo-4162494.jpeg?auto=compress&cs=tinysrgb&w=800',
-      tags: ['React Native', 'Firebase', 'Redux', 'Charts'],
-      github: '#',
-      demo: '#',
-    },
+   
   ];
 
   return (

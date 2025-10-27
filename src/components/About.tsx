@@ -4,7 +4,7 @@ const About = () => {
   const skills = [
     {
       category: 'Frontend',
-      items: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'Vue.js'],
+      items: ['React', 'TypeScript', 'Tailwind CSS', 'Next.js', 'React Native'],
     },
     {
       category: 'Backend',
@@ -12,7 +12,7 @@ const About = () => {
     },
     {
       category: 'Tools',
-      items: ['Git', 'Docker', 'AWS', 'Figma', 'VS Code'],
+      items: ['Git', 'Docker', 'Vercel', 'Figma', 'VS Code'],
     },
     {
       category: 'Soft Skills',

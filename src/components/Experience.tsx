@@ -4,52 +4,29 @@ const Experience = () => {
   const experiences = [
     {
       type: 'work',
-      title: 'Senior Full Stack Developer',
-      company: 'Tech Solutions Inc.',
-      period: '2022 - Present',
-      description: 'Leading development of scalable web applications, mentoring junior developers, and implementing best practices across the team.',
+      title: 'SDE',
+      company: 'Gharpayy.',
+      period: 'March 2025 - Oct 2025',
+      description: ' Worked as a SDE Intern, building the company’s web and mobile applications using the MERN stack to enhance user experience. Enhanced website functionality by integrating APIs and dynamic content features. Optimized code and performance, reducing page load time and improving UX.',
       highlights: [
-        'Architected and deployed 5+ production applications',
-        'Improved application performance by 40%',
-        'Mentored team of 6 developers',
+        'Architected and deployed 2 production applications',
+        'Improved application performance by 25%'
       ],
     },
-    {
-      type: 'work',
-      title: 'Full Stack Developer',
-      company: 'Digital Innovations',
-      period: '2020 - 2022',
-      description: 'Developed and maintained client-facing applications, collaborated with cross-functional teams, and optimized database queries.',
-      highlights: [
-        'Built RESTful APIs serving 100K+ requests daily',
-        'Reduced load times by 50% through optimization',
-        'Implemented CI/CD pipelines',
-      ],
-    },
+    
     {
       type: 'education',
-      title: 'Bachelor of Computer Science',
-      company: 'University of Technology',
-      period: '2016 - 2020',
+      title: 'Bachelor of Computer Science Engineering',
+      company: 'Chitkara University',
+      period: '2021 - 2025',
       description: 'Focused on software engineering, algorithms, and web development. Graduated with honors.',
       highlights: [
-        'GPA: 3.8/4.0',
+        'GPA: 8.8/10',
         'Dean\'s List all semesters',
-        'Led university coding club',
+        'Organising Head of E-Sports Club',
       ],
     },
-    {
-      type: 'work',
-      title: 'Frontend Developer Intern',
-      company: 'StartUp Labs',
-      period: '2019 - 2020',
-      description: 'Assisted in developing responsive web applications and learned modern development practices.',
-      highlights: [
-        'Contributed to 3 major product releases',
-        'Improved mobile responsiveness',
-        'Participated in agile ceremonies',
-      ],
-    },
+    
   ];
 
   return (

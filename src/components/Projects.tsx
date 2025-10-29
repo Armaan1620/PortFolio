@@ -5,7 +5,7 @@ const Projects = () => {
     {
       title: 'ClipForge',
       description: 'Full-stack video editing app using React Native (Expo) and FastAPI, featuring overlays, FFmpeg rendering, real-time preview, async job tracking, and complete Dockerized deployment.',
-      image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '',
       tags: ['React Native', 'FastAPI', 'Docker', 'FFmpeg'],
       github: 'https://github.com/Armaan1620/DripLink',
       demo: '#',
@@ -13,7 +13,7 @@ const Projects = () => {
     {
       title: 'Byte-Chef',
       description: 'Built a cross-platform mobile app for discovering and searching recipes using TheMealDB API. Integrated user authentication with Clerk and secure token handling. ',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/ByteChef.png',
       tags: ['React Native', 'TypeScript', 'Express', 'MySQL'],
       github: 'https://github.com/Armaan1620/recipe-app-api',
       demo: '#',
@@ -21,7 +21,7 @@ const Projects = () => {
     {
       title: 'Myntra-Clone',
       description: 'Built a full-stack e-commerce web app inspired by Myntra using React with Redux for state management and Bootstrap for responsive UI design.Designed responsive UI using Bootstrap, ensuring seamless usability across devices.',
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: '/myntra.jpg',
       tags: ['Python', 'React', 'OpenAI', 'FastAPI'],
       github: 'https://github.com/Armaan1620/MyntraClone',
       demo: '#',

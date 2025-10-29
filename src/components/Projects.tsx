@@ -5,7 +5,7 @@ const Projects = () => {
     {
       title: 'ClipForge',
       description: 'Full-stack video editing app using React Native (Expo) and FastAPI, featuring overlays, FFmpeg rendering, real-time preview, async job tracking, and complete Dockerized deployment.',
-      image: '',
+      image: '/ClipForge.jpg',
       tags: ['React Native', 'FastAPI', 'Docker', 'FFmpeg'],
       github: 'https://github.com/Armaan1620/DripLink',
       demo: '#',

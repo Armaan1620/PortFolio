@@ -3,7 +3,7 @@ import { ExternalLink, Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      title: 'ClipForge',
+      title: 'Aru.ai',
       description: 'Full-stack chat experience powered by Google Gemini. The backend exposes REST APIs for auth/chat and proxies every AI request through Google AI Studio.',
       image: '/Aru.ai.png',
       tags: ['Reactjs', 'Nodejs', 'Google Gemini', 'REST APIs'],

@@ -4,11 +4,11 @@ const Projects = () => {
   const projects = [
     {
       title: 'ClipForge',
-      description: 'Full-stack video editing app using React Native (Expo) and FastAPI, featuring overlays, FFmpeg rendering, real-time preview, async job tracking, and complete Dockerized deployment.',
-      image: '/ClipForge.jpg',
-      tags: ['React Native', 'FastAPI', 'Docker', 'FFmpeg'],
-      github: 'https://github.com/Armaan1620/DripLink',
-      demo: '#',
+      description: 'Full-stack chat experience powered by Google Gemini. The backend exposes REST APIs for auth/chat and proxies every AI request through Google AI Studio.',
+      image: '/Aru.ai.png',
+      tags: ['Reactjs', 'Nodejs', 'Google Gemini', 'REST APIs'],
+      github: 'https://github.com/Armaan1620/Aru.ai',
+      demo: 'https://aru-ai-r3zz.vercel.app/',
     },
     {
       title: 'Byte-Chef',
